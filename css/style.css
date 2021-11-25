@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: rgb(245, 243, 243);
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {    
+    background: black;
+}
+
+#car_img {
+    height: 100px;
+    width: auto;
+}
+
+nav {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+#link_list {
+    list-style: none;
+    display: flex;
+    width: 500px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.meny_link {
+    text-decoration: none;
+    color: black;
+    font-family: 'Spartan', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.meny_link:hover {
+    color: white;
+    font-weight: bold;
+}
+
