@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
 }
 
 header {
@@ -16,9 +17,10 @@ body {
     background: rgba(52,51,57,255);
 }
 
-#sushi_img {
-    height: auto;
-    width: 100vw;
+#bakgrund {
+    background-image: url(../img/Sushi.jpg);
+    background-size: 100%;
+    height: 100vh;
 }
 
 nav {
@@ -26,6 +28,15 @@ nav {
     width: 600px;
     justify-content: space-between;
     align-items: center;
+}
+
+.welcome_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 75vh;
+    font-size: 1.25rem;
 }
 
 .GridWrapper {
@@ -42,30 +53,39 @@ nav {
 
 .presentation {
     grid-area: a1;
-    background: blue;
-    height: auto;
+    height: 70vh;
     width: 50vw;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 3rem;
+    color: white;  
+    font-size: 1rem; 
 }
 
 .presentation_img {
     grid-area: i1;
-    height: auto;
+    height: 70vh;
     width: 50vw;
 }
 
 .maten {
     grid-area: a2;
-    background: blue;
-    height: auto;
+    height: 70vh;
     width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    color: white;  
+    font-size: 1rem;  
 }
 
 .maten_img {
     grid-area: i2;
-    height: auto;
+    height: 70vh;
     width: 50vw;
 }
 
@@ -81,7 +101,7 @@ nav {
     text-decoration: none;
     color: white;
     font-family: 'Spartan', sans-serif;
-    font-size: 15px;
+    font-size: 0.95rem;
     font-weight: lighter;
 }
 
@@ -90,3 +110,38 @@ nav {
     font-weight: bold;
 }
 
+#grid_info {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "b1 b2"
+    ;
+
+}
+
+#flex_info1 {
+    display: flex;
+    grid-area: b1;
+    height: auto;
+    width: 50vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    color: white;  
+}
+
+#flex_info2 {
+    display: flex;
+    grid-area: b2;
+    height: auto;
+    width: 50vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    color: white;  
+}
