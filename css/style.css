@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,8 +13,8 @@ header {
     align-items: center;
 }
 
-body {    
-    background: rgba(52,51,57,255);
+body {
+    background: rgba(52, 51, 57, 255);
 }
 
 #bakgrund {
@@ -43,49 +43,46 @@ nav {
     display: grid;
     height: 100vh;
     width: 100vw;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-        "a1 i1"
-        "i2 a2"
-    ;
+    grid-template-rows: 500px 500px;
+    grid-template-columns: 50vw 50vw;
+    grid-template-areas: "a1 i1" "i2 a2";
 }
 
 .presentation {
     grid-area: a1;
-    height: 70vh;
+    height: 500px;
     width: 50vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 3rem;
-    color: white;  
-    font-size: 1rem; 
+    padding: 4rem;
+    color: white;
+    font-size: 1rem;
 }
 
 .presentation_img {
     grid-area: i1;
-    height: 70vh;
+    height: 500px;
     width: 50vw;
 }
 
 .maten {
     grid-area: a2;
-    height: 70vh;
+    height: 500px;
     width: 50vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 3rem;
-    color: white;  
-    font-size: 1rem;  
+    padding: 4rem;
+    color: white;
+    font-size: 1rem;
 }
 
 .maten_img {
     grid-area: i2;
-    height: 70vh;
+    height: 500px;
     width: 50vw;
 }
 
@@ -112,14 +109,11 @@ nav {
 
 #grid_info {
     display: grid;
-    height: 100vh;
+    height: auto;
     width: 100vw;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-        "b1 b2"
-    ;
-
+    grid-template-rows: 500px;
+    grid-template-columns: 50vw 50vw;
+    grid-template-areas: "b1 b2";
 }
 
 #flex_info1 {
@@ -131,7 +125,7 @@ nav {
     align-items: center;
     justify-content: center;
     padding: 5rem;
-    color: white;  
+    color: white;
 }
 
 #flex_info2 {
@@ -143,5 +137,5 @@ nav {
     align-items: center;
     justify-content: center;
     padding: 5rem;
-    color: white;  
+    color: white;
 }
