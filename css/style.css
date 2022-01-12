@@ -94,7 +94,7 @@ nav {
     align-items: center;
 }
 
-.meny_link {
+.nav_link {
     text-decoration: none;
     color: white;
     font-family: 'Spartan', sans-serif;
@@ -102,12 +102,12 @@ nav {
     font-weight: lighter;
 }
 
-.meny_link:hover {
+.nav_link:hover {
     color: rgb(240, 9, 9);
     font-weight: bold;
 }
 
-#grid_info {
+/* #grid_info {
     display: grid;
     height: auto;
     width: 100vw;
@@ -138,4 +138,4 @@ nav {
     justify-content: center;
     padding: 5rem;
     color: white;
-}
+} */
