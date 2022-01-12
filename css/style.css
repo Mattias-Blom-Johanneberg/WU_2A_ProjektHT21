@@ -41,7 +41,7 @@ nav {
 
 .GridWrapper {
     display: grid;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     grid-template-rows: 500px 500px;
     grid-template-columns: 50vw 50vw;
@@ -69,7 +69,7 @@ nav {
 
 .maten {
     grid-area: a2;
-    height: 500px;
+    height: 100%;
     width: 50vw;
     display: flex;
     flex-direction: column;

@@ -51,21 +51,32 @@ nav {
     font-weight: bold;
 }
 
+.mitten_flex {
+    display: flex;
+    width: 45vw;
+    align-items: center;
+    flex-direction: column;
+}
+
 .om_oss_flex {
     display: flex;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    padding: 15rem;
+    padding: 14rem;
+    font-size: 1.4rem;
 }
 
-#om_oss1 {
+#om_oss {
     margin: 3rem;
+    text-align: justify;
+    text-transform: inherit;
 }
 
-#om_oss2 {
-    margin: 3rem;
+
+.om_oss_img {
+    height: 400px;
+    padding: 3rem;
 }
 
