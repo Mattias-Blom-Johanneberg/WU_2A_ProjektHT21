@@ -52,26 +52,36 @@ nav {
 }
 
 
-/* .meny_grid {
+.meny_grid {
     display: grid;
     height: 100vh;
     width: 100vw;
     grid-template-rows: 100%;
-    grid-template-columns: 50vw 50vw;
+    grid-template-columns: 33vw 33vw 33vw;
     grid-template-areas: 
-    "me mb";
-} */
+    "su dr sb";
+}
 
-#meny_flex {
+#meny_sushi_flex {
     display: flex;
     height: 100vh;
-    width: 100vw;
+    width: 33vw;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.meny_list {
+#meny_drink_flex {
+    display: flex;
+    height: 100vh;
+    width: 33vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.meny_sushi_list {
+    grid-area: "su";
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,4 +93,37 @@ nav {
     font-size: 1.5rem;
     font-weight: lighter;
     padding: 5rem;    
+}
+
+.meny_drink_list {
+    grid-area: "dr";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    font-family: 'Spartan', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    padding: 5rem;    
+}
+
+li {
+    padding: 2.1rem;
+}
+
+.meny_bilder {
+    grid-area: "sb";
+}
+
+.sushi_meny_bild {
+    height: 30rem;
+    padding: 6rem;
+}
+
+.drinkar_meny_bild {
+    height: 30rem;
+    padding: 6rem;
 }
